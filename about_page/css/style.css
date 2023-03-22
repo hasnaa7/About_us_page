@@ -1,0 +1,238 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Phudu', cursive;
+    font-family: 'Spectral', serif;
+    text-transform: capitalize;
+   
+    
+}
+body{
+    height:1000px;
+    background-color: #000000e8 !important;
+    
+}
+
+
+
+:root{
+    --text_color:#d6531d;
+    --second_text_color:antiquewhite;
+
+}
+/*  start slider styleing  */
+
+
+
+
+.slide .carousel-inner .carousel-item h1{
+    color: var(--text_color);
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+.slide .carousel-inner .carousel-item p{
+    color: var(--second_text_color);
+    opacity: 0.7;
+    
+    
+}
+
+/*  end slider styleing  */
+/* start info part */
+
+
+
+.info{
+
+    margin-top: 5%;
+    overflow-x: hidden;
+    margin-bottom: 5%;
+}
+.info .row{
+    min-height: 500px;
+    background: rgb(237,114,63);
+    background: linear-gradient(90deg, rgba(237,114,63,80%) 0%, rgba(73,114,133,80%) 100%);
+    
+    
+   
+}
+/* strat left side  */
+.info .row .left_side{
+   margin: auto;
+
+}
+.info .row .left_side h1{
+    font-family: 'Crete Round', serif;
+    font-size: 6rem;
+    
+    color: #222831;
+
+}
+.info .row .left_side .sec_line{
+
+    position: relative;
+    left: 4rem;
+}
+.info .row .left_side h1:hover{
+    opacity: 0.7;
+    text-shadow:0px 0px 1px black;
+    transition: all 0.4s;
+    cursor:auto;
+ 
+}
+/* start rigth side  */
+
+.info .row .right_side{
+    margin: auto;
+    padding-left:20px;
+    padding: 3rem;
+    overflow: hidden;
+
+
+
+}
+
+.right_side p{
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+.right_side p:hover{
+    font-weight:bold;
+    text-shadow:0px 0px 1px black;
+    transition: all 0.5s;
+    
+
+}
+/* start title  */
+.titile h2{
+    color:var(--text_color);
+    font-size: 70px;
+    font-weight: bolder;
+    padding: 20px;
+    text-align: center;
+    opacity: 0.7;
+   
+
+}
+.titile{
+    position: relative;
+}
+.titile::after{
+    content:".";
+    position: absolute;
+    background-color: #d6531d;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width:200px;
+    height:3px ;
+    opacity: o.7;
+   
+      
+}
+
+
+
+/* goals section */
+.goals {
+    
+    overflow: hidden;
+    margin: auto;
+   margin-bottom: 5%;
+   padding: 30px;
+    
+  
+    
+}
+
+
+
+.goals .row .objective{
+
+    padding: 5px;
+    position: relative;
+    background-color: transparent;
+    height:30vh;
+    width: 35vh;
+    
+    border-radius: 10px ;
+   overflow: hidden;
+    text-align: center;
+    color:antiquewhite;
+   
+    margin-bottom: 2%;
+    justify-content: flex-start;
+    
+
+    
+   
+
+  
+}
+
+.goals .row .objective h3{
+    font-family: 'Crete Round', serif;
+    padding-top:40px;
+
+   
+}
+
+.goals .row .objective:hover{
+    background-color:#d6531d;
+    opacity: 0.6;
+    transform: translate(10px);
+    transition:  all 1s;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end info part */
+
+/* largr parent desing */
